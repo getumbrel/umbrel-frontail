@@ -1,4 +1,4 @@
-FROM node:12-stretch-slim
+FROM node:12.16.3-buster-slim
 
 WORKDIR /frontail
 ADD . .
